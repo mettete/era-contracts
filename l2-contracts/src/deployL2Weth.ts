@@ -3,7 +3,7 @@ import { ethers, Wallet } from "ethers";
 import { formatUnits, parseUnits } from "ethers/lib/utils";
 import { getTokens, web3Provider } from "../../l1-contracts/scripts/utils";
 import { Deployer } from "../../l1-contracts/src.ts/deploy";
-
+//
 import { applyL1ToL2Alias, computeL2Create2Address, create2DeployFromL1, getNumberFromEnv } from "./utils";
 
 import * as fs from "fs";
